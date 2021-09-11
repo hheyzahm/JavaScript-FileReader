@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript FileReader</title>
+</head>
+
+<body>
+
+    <form >
+        <h1 align="center">Pick a file</h1>
+        
+        <!--Text FIle reading procedure
+                                        Text file reader procedure Start from here  -->
+
+        <div class="fileInputControlDiv" align="center" style="
+                                        margin-bottom: 10px;
+                                    ">
+            <input type="file" id="fileInputControl">
+        </div>
+
+        <textarea id="previewText" rows=40" style="width: 100%; display: none;"></textarea>
+
+
+
+        <!--
+                             Text file reader procedure end here 
+            *********************************************************************** -->
+
+        <!--Image File reading procedure
+                                        Image file reader procedure Start from here -->
+        <!-- <div class="fileInputControlDiv" align="center" style="
+                                        margin-bottom: 10px;
+                                    ">
+        <input type="file" id="fileInputControl" accept="image/*"></div> -->
+        <img id="previewImg" style="width: 100%; display: none; height: 100%;
+            " />
+
+
+        <!--
+                             Image file reader procedure end here
+            *********************************************************************** -->
+
+        <!--Audio File reading procedure
+                                        Audio file reader procedure Start from here -->
+
+        <!--
+        <input type="file" id="fileInputControl"align="center" style="
+        top: 370px;
+        position: absolute;
+        left: 150px;" accept="Audio/*">  
+        <div class='audio-container' align="center" style="
+                                                    top: 350px;
+                                                    position: absolute;
+                                                    left: 350px;">
+            <audio id="previewAudio" controls style="
+                                                    top: 350px;
+                                                    position: absolute;
+                                                    left: 350px; display: none;"></audio>
+        </div>
+      -->
+
+        <audio id="previewAudio" controls style="
+                                                    top: 350px;
+                                                    position: absolute;
+                                                    left: 350px; display: none;"></audio>
+        <!--
+                             Audio file reader procedure end here
+            *********************************************************************** -->
+        <!-- Video File reading procedure
+                                        Video file reader procedure Start from here -->
+        <!--                              
+        <div class="fileInputControlDiv"align="center" style="
+        margin-bottom: 10px;
+    "><input type="file" id="fileInputControl"align="center"  accept="Video/*"></div>
+-->
+        <div class='video-container' align="center" style="margin-top: 10px;">
+            <video  autoplay="true" loop="true" muted="true" 
+                style="position: absolute; right: 0; top: 50px; width:100%; z-index: -100; object-fit: initial; display: none; margin-top: 60px;"
+            id="previewVideo" controls>
+        </video>
+        </div>
+    
+        <!--
+                             Video file reader procedure end here
+            *********************************************************************** -->
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

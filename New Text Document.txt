@@ -1,0 +1,5 @@
+h this class name, this will just give you the first element.
+
+	=== var variableName = document.getElementsByClassName(className)[0];
+
+If there is not a class but there only id then theres nothing to do just call id by variable name

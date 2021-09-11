@@ -1,0 +1,13 @@
+
+body,textarea{
+    font-size: 25px;
+}
+
+textarea{
+    width: 100%;
+}
+
+.fileInputControlDiv{
+    width: 100%;
+
+}

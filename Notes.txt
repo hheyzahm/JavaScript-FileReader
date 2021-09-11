@@ -1,0 +1,6 @@
+how to make video to fit in window size in html
+
+https://stackoverflow.com/questions/36949747/make-video-fit-100-with-any-screen-resolution
+
+height="100%" autoplay="true" loop="true" muted="true" plays-inline="" 
+                style="position: absolute; right: 0; top: 0; min-width:100%; z-index: -100; object-fit: cover;"
