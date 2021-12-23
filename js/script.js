@@ -14,7 +14,7 @@ function fileInputContolChangeEventHandler(event) {
 
     // Allowing file type
     var TextAllowedExtensions =
-        /(\.txt|\.jpeg|\.png|\.gif)$/i;
+        /(\.txt)$/i;
     var ImageAllowedExtensions =
         /(\.jpg|\.jpeg|\.png|\.gif)$/i;
     var AudioAllowedExtensions =
